@@ -6,7 +6,8 @@
     "react": "latest",
     "react-dom": "latest",
     "@mui/material": "latest",
-    "@mui/icons-material": "latest",
-    "next-auth": "latest"
+    "next-auth": "latest",
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest"
   }
 }
