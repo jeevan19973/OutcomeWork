@@ -1,0 +1,12 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "@mui/material": "latest",
+    "@mui/icons-material": "latest",
+    "next-auth": "latest"
+  }
+}
