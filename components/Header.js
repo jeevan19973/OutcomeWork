@@ -1,16 +1,13 @@
 import React from 'react';
-import Link from 'next/link';
+import { AppBar, Toolbar, Typography } from '@mui/material';
 
 const Header = () => {
   return (
-    <header>
-      <h1>MyApp</h1>
-      <nav>
-        <Link href="/">Home</Link>
-        <Link href="/dashboard">Dashboard</Link>
-        <Link href="/login">Login</Link>
-      </nav>
-    </header>
+    <AppBar position="static">
+      <Toolbar>
+        <Typography variant="h6">My App</Typography>
+      </Toolbar>
+    </AppBar>
   );
 };
 
