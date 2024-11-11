@@ -1,13 +1,4 @@
-{
-  "users": [
-    { "id": "1", "name": "User One", "email": "userone@example.com", "role": "user" },
-    { "id": "2", "name": "Admin User", "email": "admin@example.com", "role": "admin" }
-  ],
-  "products": [
-    { "id": "1", "title": "Product 1", "description": "Description of Product 1", "price": 100 },
-    { "id": "2", "title": "Product 2", "description": "Description of Product 2", "price": 200 }
-  ],
-  "orders": [
-    { "id": "1", "userId": "1", "productIds": ["1"], "totalPrice": 100 }
-  ]
-}
+[
+  { "id": "1", "name": "Admin User", "email": "admin@example.com", "role": "admin" },
+  { "id": "2", "name": "Regular User", "email": "user@example.com", "role": "user" }
+]
