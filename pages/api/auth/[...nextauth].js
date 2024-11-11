@@ -18,9 +18,6 @@ export default NextAuth({
         token.role = user.role;
       }
       return token;
-    }
+    },
   },
-  pages: {
-    signIn: '/login',
-  }
 });
