@@ -1,13 +1,12 @@
 {
-  "name": "my-app",
+  "name": "proof-of-concept-app",
   "version": "1.0.0",
   "dependencies": {
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
     "@mui/material": "latest",
-    "next-auth": "latest",
-    "@emotion/react": "latest",
-    "@emotion/styled": "latest"
+    "@mui/icons-material": "latest",
+    "next-auth": "latest"
   }
 }
