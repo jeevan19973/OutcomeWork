@@ -1,8 +1,10 @@
-import data from '../../../data/seed_data.json';
+import { NextApiRequest, NextApiResponse } from 'next';
 
 export default function handler(req, res) {
+  // Admin: Manage users
   if (req.method === 'GET') {
-    return res.status(200).json(data.users);
+    res.status(200).json({ message: 'Admin user management' });
+  } else {
+    res.status(405).json({ message: 'Method not allowed.' });
   }
-  // Admin specific operations can go here...
 }
