@@ -1,8 +1,6 @@
-import data from '../../../data/seed_data.json';
+import { NextApiRequest, NextApiResponse } from 'next';
 
 export default function handler(req, res) {
-  if (req.method === 'GET') {
-    return res.status(200).json(data.products);
-  }
-  // Admin specific operations can go here...
+  // Admin: Manage products
+  res.status(200).json({ message: 'Admin product management' });
 }
