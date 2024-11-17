@@ -1,8 +1,6 @@
-import data from '../../data/seed_data.json';
+import { NextApiRequest, NextApiResponse } from 'next';
 
 export default function handler(req, res) {
-  if (req.method === 'GET') {
-    return res.status(200).json(data.products);
-  }
-  // Additional methods (POST, DELETE) can be handled here...
+  // Handle GET and POST for products
+  res.status(200).json({ message: 'Manage products' });
 }
