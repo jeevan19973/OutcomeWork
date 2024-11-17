@@ -1,4 +1,10 @@
-[
-  { "id": "1", "name": "Admin User", "email": "admin@example.com", "role": "admin" },
-  { "id": "2", "name": "Regular User", "email": "user@example.com", "role": "user" }
-]
+{
+  "users": [
+    { "id": "1", "name": "Admin User", "email": "admin@example.com", "role": "admin" },
+    { "id": "2", "name": "Regular User", "email": "user@example.com", "role": "user" }
+  ],
+  "products": [
+    { "id": "1", "name": "Product 1", "description": "Description for product 1", "price": 99.99 }
+  ],
+  "orders": []
+}
